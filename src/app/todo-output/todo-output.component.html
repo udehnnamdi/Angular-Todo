@@ -1,0 +1,20 @@
+<!-- <p>{{todo}}</p> -->
+<div class="container row">
+  <div class="col-6">
+    <span
+      class="form-control bg-white btn m-2"
+      style="text-align: left; font-weight: bold"
+    >
+      {{ todo }}
+    </span>
+  </div>
+
+  <div class="col-4">
+    <button
+      class="m-4 mt-2 btn btn-danger material-icons"
+      (click)="onRemoveTodo(id)"
+    >
+      delete
+    </button>
+  </div>
+</div>
